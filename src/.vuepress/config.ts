@@ -20,6 +20,10 @@ export default defineUserConfig({
     searchProPlugin({
       indexContent: true,
       hotReload: true,
+      hotKeys: [
+        { key: "k", ctrl: true }, 
+        { key: "f", ctrl: true }, 
+      ],
     }),
   ],
 

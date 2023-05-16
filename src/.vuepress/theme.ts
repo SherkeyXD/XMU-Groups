@@ -3,57 +3,40 @@ import { Navbar } from "./navbar/index.js";
 import { Sidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
-  author: {
-    name: "SherkeyXD",
-    url: "https://github.com/SherkeyXD",
-  },
-
-  iconAssets: [
-    "iconfont",
-    "fontawesome",
-  ],
-
-
+  hostname: "https://groups.sherkey.ml/",
+  iconAssets: "iconfont",
   logo: "/logo.svg",
-
   repo: "SherkeyXD/XMU-Groups",
-
   docsDir: "",
-
   locales: {
     "/": {
-      // navbar
       navbar: Navbar,
-
-      // sidebar
       sidebar: Sidebar,
-
-      footer: "Default footer",
-
       displayFooter: false,
-
       metaLocales: {
         editLink: "在Github上编辑此页面",
       },
     },
   },
+  fullscreen: true,
+  backToTop: true,
 
   // encrypt: {
   //   
   // },
 
-  fullscreen: true,
-  backToTop: true,
-
   plugins: {
-    //comment: {
-    //  // @ts-expect-error: You should generate and use your own comment service
-    //  provider: "Waline",
-    //},
+    comment: {
+      provider: "Waline",
+      serverURL: "https://waline.sherkey.ml/",
+    },
 
-    // all features are enabled for demo, only preserve features you need here
+    components: {
+      components: [
+        "FontIcon",
+      ],
+    },
+
     mdEnhance: {
       align: true,
       attrs: true,
@@ -64,6 +47,7 @@ export default hopeTheme({
       gfm: true,
       imgLazyload: true,
       imgSize: true,
+      imgMark: true,
       include: true,
       mark: true,
       // playground: {
@@ -72,19 +56,19 @@ export default hopeTheme({
       // presentation: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
+      // stylize: [
+      //   {
+      //     matcher: "Recommended",
+      //     replacer: ({ tag }) => {
+      //       if (tag === "em")
+      //         return {
+      //           tag: "Badge",
+      //           attrs: { type: "tip" },
+      //           content: "Recommended",
+      //         };
+      //     },
+      //   },
+      // ],
       sub: true,
       sup: true,
       tabs: true,
@@ -93,7 +77,11 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    // uncomment these if you want a pwa
+    photoSwipe: {
+      scrollToClose: false,
+      delay: 1000,
+    },
+
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,
