@@ -29,7 +29,7 @@ body:
     id: group_url
     attributes:
       label: 加群链接
-      description: 请输入你要填加的群的加群链接，链接的获取方式参看[获取加群链接](https://groups.sherkley.ml/contributing/编写规范.html#获取加群链接)
+      description: 请输入你要填加的群的加群链接，链接的获取方式参看[获取加群链接](https://groups.sherkey.ml/contributing/编写规范.html#获取加群链接)
       placeholder: 形如 https
     validations:
       required: true
