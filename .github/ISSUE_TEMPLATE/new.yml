@@ -1,0 +1,43 @@
+name: 添加群信息
+description: 添加一个全新的群信息
+title: "[新群]: "
+labels: ["new"]
+assignees:
+  - SherkeyXD
+body:
+  - type: markdown
+    attributes:
+      value: |
+        在添加之前，请向群管理员确认是否允许推广
+  - type: input
+    id: group_id
+    attributes:
+      label: 群号
+      description: 请输入你要填加的群的群号
+      placeholder: ex. 1145141919
+    validations:
+      required: true
+  - type: input
+    id: group_name
+    attributes:
+      label: 群名称
+      description: 请输入你要填加的群的群名称
+      placeholder: ex. 理塘最速传说と绝凶の猛虎！纯真丁一郎です
+    validations:
+      required: true
+  - type: input
+    id: group_url
+    attributes:
+      label: 加群链接
+      description: 请输入你要填加的群的加群链接，链接的获取方式参看[获取加群链接](https://groups.sherkley.ml/contributing/编写规范.html#获取加群链接)
+      placeholder: 形如 https
+    validations:
+      required: true
+  - type: textarea
+    id: else
+    attributes:
+      label: 其他想说的
+      description: 比如群公告或者是对群的基本介绍啥的
+      placeholder: 啊米浴说的道理~
+    validations:
+      required: false
