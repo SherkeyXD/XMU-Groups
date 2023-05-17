@@ -36,8 +36,8 @@ body:
   - type: textarea
     id: else
     attributes:
-      label: 其他想说的
-      description: 比如群公告或者是对群的基本介绍啥的
+      label: 有什么想说的吗
+      description: ~~没活可以咬打火机~~
       placeholder: 啊米浴说的道理~
     validations:
       required: false

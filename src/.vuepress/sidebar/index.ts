@@ -12,7 +12,7 @@ export const Sidebar = sidebar({
     },
     {
       icon: "note",
-      text: "添加新的群信息",
+      text: "添加群信息",
       link: "/contributing/",
       prefix: "/contributing/",
       collapsible: true,
