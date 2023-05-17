@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "python ./generator.py && vuepress build src",
+    "build": "python3 ./generator.py && vuepress build src",
     "clean": "npx rimraf src/groups/README.md && vuepress dev src --clean-cache",
-    "dev": "python generator.py && vuepress dev src",
+    "dev": "python3 generator.py && vuepress dev src",
     "update": "yarn dlx vp-update"
   },
   "devDependencies": {
