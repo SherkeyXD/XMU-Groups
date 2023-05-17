@@ -7,7 +7,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
   logo: "/logo.svg",
   repo: "SherkeyXD/XMU-Groups",
-  docsDir: "",
+  docsDir: "/src",
   locales: {
     "/": {
       navbar: Navbar,
