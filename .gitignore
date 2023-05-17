@@ -128,3 +128,6 @@ src/.vuepress/.cache
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Repo specified
+src/groups/README.md
