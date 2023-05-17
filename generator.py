@@ -1,4 +1,4 @@
-import json
+import os, json
 
 def main():
     with open ("groups.json", 'r', encoding="UTF-8") as f:
@@ -10,6 +10,8 @@ def main():
             raise Exception(f"群{i['id']}({i['name']})的加群链接未经脱敏处理，请检查")
     
     groups.sort(key=lambda x: x['id'])
+    if not os.path.exists("./src/groups"):
+        os.mkdir("./src/groups")
     with open ("./src/groups/README.md", 'w+', encoding="UTF-8") as f:
         f.write("---\neditLink: false\n---\n# 总览\n可以在右上角的搜索框处搜索群，点击群号可以直接加群\n| 群名称/群头像 | 主要内容 | 群号 |\n| ---- | ---- | ---- |\n")
         for i in groups:
