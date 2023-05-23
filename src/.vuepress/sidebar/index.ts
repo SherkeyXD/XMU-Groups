@@ -3,6 +3,11 @@ import { sidebar } from "vuepress-theme-hope";
 export const Sidebar = sidebar({
   "": [
     {
+      icon: "home",
+      text: "首页",
+      link: "/",
+    },
+    {
       icon: "discover",
       text: "群列表",
       link: "/groups/",
