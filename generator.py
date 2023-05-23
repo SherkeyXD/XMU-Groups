@@ -1,6 +1,5 @@
 import os
 import json
-import requests
 
 def build():
     with open ("groups.json", 'r', encoding="UTF-8") as f:
