@@ -26,11 +26,19 @@ body:
     validations:
       required: true
   - type: input
+    id: group_tags
+    attributes:
+      label: 群聊内容标签
+      description: 群聊的主要内容，标签的编写方式参看[标签编写规范](https://groups.sherkey.ml/contributing/编写规范.html#群信息编写规范)
+      placeholder: ex. Apex
+    validations:
+      required: true
+  - type: input
     id: group_url
     attributes:
       label: 加群链接
-      description: 请输入你要填加的群的加群链接，链接的获取方式参看[获取加群链接](https://groups.sherkey.ml/contributing/编写规范.html#获取加群链接)
-      placeholder: 形如 https
+      description: 请输入你要填加的群的加群链接，链接的获取方式参看[获取加群链接](https://groups.sherkey.ml/contributing/获取加群链接.html)
+      placeholder: 形如 http://qm.qq.com/cgi-bin/qm/qr?_wv=xxxxxx&k=xxxxxx
     validations:
       required: true
   - type: textarea
