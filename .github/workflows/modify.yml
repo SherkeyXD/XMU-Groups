@@ -1,0 +1,43 @@
+
+name: Modify group messages
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: '群号'
+        required: true
+      name:
+        description: '群名称'
+        required: true
+      tags:
+        description: '群标签'
+        required: true
+      url:
+        description: '加群链接'
+        required: true
+
+
+permissions:
+  contents: write
+
+jobs:
+  Modify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Modify group.json
+        run: |
+          python3 main.py modify -id ${{ github.event.inputs.id }} -name ${{ github.event.inputs.name }} -tags ${{ github.event.inputs.tags }} -url ${{ github.event.inputs.url }}
+
+      - name: Commit files
+        run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add group.json
+            git commit -m "group: 修改了群${{ github.event.inputs.id }}的内容"
+          
