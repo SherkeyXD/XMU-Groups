@@ -38,3 +38,4 @@
 2. 点击 `New issue` 新建一个 issue <br> ![issue-2](/assets/screenshot/issue-2.png)
 3. 选择**添加群信息**选项右侧的 `Get started` 按钮 <br> ![issue-3](/assets/screenshot/issue-3.png)
 4. 依次填入信息，最后点击 `Submit new issue` 按钮提交 <br> ![issue-4](/assets/screenshot/issue-4.png)
+5. 等待 issue 被处理即可
