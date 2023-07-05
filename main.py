@@ -15,7 +15,7 @@ def correct():
         groups = json.load(f)['groups']
     for i in groups:
         params = {j.split('=')[0]: j.split('=')[1] for j in i['url'].split('?')[-1].split('&')}
-        i['url'] = f"http://qm.qq.com/cgi-bin/qm/qr?_wv{params['_wv']}=&k={params['k']}"
+        i['url'] = f"https://qm.qq.com/cgi-bin/qm/qr?_wv={params['_wv']}&k={params['k']}"
     groups.sort(key=lambda x: x['id'])
     with open ("groups.json", 'w+', encoding="UTF-8") as f:
         json.dump({"groups": groups}, f, indent=4, ensure_ascii=False)
