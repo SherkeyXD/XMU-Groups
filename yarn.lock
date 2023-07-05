@@ -14072,7 +14072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-search-pro@npm:^2.0.0-beta.230":
+"vuepress-plugin-search-pro@npm:2.0.0-beta.230":
   version: 2.0.0-beta.230
   resolution: "vuepress-plugin-search-pro@npm:2.0.0-beta.230"
   dependencies:
@@ -14182,7 +14182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-theme-hope@npm:^2.0.0-beta.230":
+"vuepress-theme-hope@npm:2.0.0-beta.230":
   version: 2.0.0-beta.230
   resolution: "vuepress-theme-hope@npm:2.0.0-beta.230"
   dependencies:
@@ -14259,7 +14259,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress@npm:next":
+"vuepress@npm:2.0.0-beta.64":
   version: 2.0.0-beta.64
   resolution: "vuepress@npm:2.0.0-beta.64"
   dependencies:
@@ -14703,10 +14703,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "xmu-groups@workspace:."
   dependencies:
+    "@vuepress/client": 2.0.0-beta.64
     vercel: 31.0.1
-    vuepress: next
-    vuepress-plugin-search-pro: ^2.0.0-beta.230
-    vuepress-theme-hope: ^2.0.0-beta.230
+    vue: ^3.3.4
+    vuepress: 2.0.0-beta.64
+    vuepress-plugin-search-pro: 2.0.0-beta.230
+    vuepress-theme-hope: 2.0.0-beta.230
   languageName: unknown
   linkType: soft
 
