@@ -49,6 +49,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
-          working-directory: ./src/.vuepress/dist
           alias-domains: groups.sherkey.ml
           vercel-project-name: xmu-groups
