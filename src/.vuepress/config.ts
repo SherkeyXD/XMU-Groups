@@ -9,7 +9,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "查查你的",
+      title: "厦门大学群收集",
       description: "一个收集厦门大学同好群的网站，方便大家寻找组织",
     },
   },

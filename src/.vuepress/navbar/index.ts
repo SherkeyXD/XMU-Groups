@@ -13,7 +13,7 @@ export const Navbar = navbar([
     link: "/groups/" 
   },
   { 
-    text: "贡献指南", 
+    text: "添加群信息", 
     icon: "note", 
     link: "/contributing/" 
   },
