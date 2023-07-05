@@ -11,12 +11,11 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  issues: write
+  pull-requests: write
 
 jobs:
-  Build:
+  Build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -43,26 +42,13 @@ jobs:
         run: |
           yarn run build
 
-      - name: Upload Page artifacts
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
         with:
-          path: src/.vuepress/dist
-
-      - name: Upload Markdown artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: Markdown
-          path: |
-            src/banks/*.md
-            !src/banks/README.md
-
-  Deploy:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: Build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
+          working-directory: ./src/.vuepress/dist
+          alias-domains: groups.sherkey.ml
+          vercel-project-name: xmu-groups

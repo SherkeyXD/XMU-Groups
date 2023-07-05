@@ -129,5 +129,9 @@ src/.vuepress/.cache
 .yarn/install-state.gz
 .pnp.*
 
+# vercel
+.vercel
+
 # Repo specified
 src/groups/README.md
+
