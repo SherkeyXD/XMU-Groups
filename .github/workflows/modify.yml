@@ -50,6 +50,7 @@ jobs:
             automated
             group
           assignees: SherkeyXD
+          delete-branch: true
 
           
 
