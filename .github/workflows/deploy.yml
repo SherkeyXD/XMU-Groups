@@ -12,7 +12,6 @@ concurrency:
 
 permissions:
   issues: write
-  pull-requests: write
 
 jobs:
   Build-and-deploy:
