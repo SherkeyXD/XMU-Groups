@@ -3,7 +3,7 @@ import { Navbar } from "./navbar/index.js";
 import { Sidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://groups.sherkey.ml/",
+  hostname: "https://groups.sherkey.pro/",
   iconAssets: "iconfont",
   logo: "/logo.svg",
   repo: "SherkeyXD/XMU-Groups",
