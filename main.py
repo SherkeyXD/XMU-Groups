@@ -34,7 +34,7 @@ def build():
     if not os.path.exists("./src/groups"):
         os.mkdir("./src/groups")
     with open("./src/groups/README.md", 'w+', encoding="UTF-8") as f:
-        f.writelines(["---\nri:qq-fill\neditLink: false\n---\n\n",
+        f.writelines(["---\nicon: ri:qq-fill\neditLink: false\n---\n\n",
                       "# 总览\n\n可以在右上角的搜索框处搜索群，电脑端点击群名称可以直接加群\n\n",
                       "| 群名称/群头像 | 主要内容 | 群号 |\n| ---- | ---- | ---- |\n"])
         for i in groups:
