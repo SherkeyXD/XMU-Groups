@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   Modify:
@@ -34,10 +35,24 @@ jobs:
         run: |
           python3 main.py modify -id ${{ github.event.inputs.id }} -name ${{ github.event.inputs.name }} -tags ${{ github.event.inputs.tags }} -url ${{ github.event.inputs.url }}
 
-      - name: Commit files
-        run: |
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add group.json
-            git commit -m "group: 修改了群${{ github.event.inputs.id }}的内容"
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "group: 修改了群${{ github.event.inputs.id }}的内容"
+          branch: group/${{ github.event.inputs.id }}
+          title: "${{ github.event.inputs.name }}(${{ github.event.inputs.id }})"
+          body: |
+            群名称：${{ github.event.inputs.name }}
+            群号：${{ github.event.inputs.id }}
+            群标签：${{ github.event.inputs.tags }}
+            加群链接：${{ github.event.inputs.url }}
+          labels: |
+            automated
+            group
+          assignees: SherkeyXD
+
+          
+
+
+          
           
