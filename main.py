@@ -28,10 +28,10 @@ def build():
         os.mkdir("./src/groups")
     with open ("./src/groups/README.md", 'w+', encoding="UTF-8") as f:
         f.writelines(["---\neditLink: false\n---\n",
-        "# 总览\n可以在右上角的搜索框处搜索群，点击群号可以直接加群\n",
+        "# 总览\n可以在右上角的搜索框处搜索群，电脑端点击群名称可以直接加群\n",
         "| 群名称/群头像 | 主要内容 | 群号 |\n| ---- | ---- | ---- |\n"])
         for i in groups:
-            f.write(f'''| <figure><img src="http://p.qlogo.cn/gh/{i['id']}/{i['id']}/100" height="100" width="100" /><figcaption>{i['name']}</figcaption></figure> | {i['tags']} | [{i['id']}]({i['url']}) |\n''')
+            f.write(f'''| <figure><img src="http://p.qlogo.cn/gh/{i['id']}/{i['id']}/100" height="100" width="100" /><figcaption>[{i['name']}]({i['url']})</figcaption></figure> | {i['tags']} | {i['id']} |\n''')
 
 def modify(id : str, name : str, tags : str, url : str):
     with open("groups.json", 'r', encoding="UTF-8") as f:
@@ -44,6 +44,8 @@ def modify(id : str, name : str, tags : str, url : str):
             break
     else:
         groups.append({"id": id, "name": name, "tags": tags, "url": url})
+    with open ("groups.json", 'w+', encoding="UTF-8") as f:
+        json.dump({"groups": groups}, f, indent=4, ensure_ascii=False)
     correct()
 
 
