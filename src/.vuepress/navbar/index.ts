@@ -3,17 +3,17 @@ import { navbar } from "vuepress-theme-hope";
 export const Navbar = navbar([
   { 
     text: "首页", 
-    icon: "home", 
+    icon: "bx:home", 
     link: "/" 
   },
   { 
     text: "群列表", 
-    icon: "discover", 
+    icon: "dashicons:groups", 
     link: "/groups/" 
   },
   { 
     text: "添加群信息", 
-    icon: "note", 
+    icon: "tabler:edit", 
     link: "/contributing/" 
   },
 ]);

@@ -4,7 +4,7 @@ import { Sidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://groups.sherkey.pro/",
-  iconAssets: "iconfont",
+  iconAssets: "iconify",
   logo: "/logo.svg",
   repo: "SherkeyXD/XMU-Groups",
   docsDir: "/src",

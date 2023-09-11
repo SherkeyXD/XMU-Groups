@@ -1,3 +1,7 @@
+---
+icon: ion:git-pull-request
+order: 2
+---
 # 网页端PR教程
 
 ::: info
