@@ -40,7 +40,7 @@ jobs:
         with:
           commit-message: "group: 修改了群${{ github.event.inputs.id }}的内容"
           branch: group/${{ github.event.inputs.id }}
-          title: "${{ github.event.inputs.name }}(${{ github.event.inputs.id }})"
+          title: "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})"
           body: |
             群名称：${{ github.event.inputs.name }}
             群号：${{ github.event.inputs.id }}
