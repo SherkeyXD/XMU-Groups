@@ -1,7 +1,7 @@
 name: 添加群信息
 description: 添加一个全新的群信息
 title: "[新群]: "
-labels: ["new"]
+labels: ["new", "group"]
 assignees:
   - SherkeyXD
 body:
