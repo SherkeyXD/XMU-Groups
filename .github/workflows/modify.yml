@@ -44,7 +44,7 @@ jobs:
           gh pr create \
           --repo SherkeyXD/XMU-Groups \
           --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
-          --body "群名称：${{ github.event.inputs.name }}\n群号：${{ github.event.inputs.id }}\n群标签：${{ github.event.inputs.tags }}\n加群链接：${{ github.event.inputs.url }}" \
+          --body-file "pr-body.md" \
           --label automated \
           --assignee SherkeyXD \
         env:
