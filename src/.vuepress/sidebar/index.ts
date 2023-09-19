@@ -18,7 +18,7 @@ export const Sidebar = sidebar({
     {
       text: "添加群信息",
       icon: "tabler:edit",
-      link: "/contributing/",
+      link: "/contributing/贡献指南.md",
       prefix: "/contributing/",
       collapsible: true,
       children: "structure",

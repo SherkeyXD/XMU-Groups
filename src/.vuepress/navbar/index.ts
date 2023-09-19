@@ -14,6 +14,6 @@ export const Navbar = navbar([
   { 
     text: "添加群信息", 
     icon: "tabler:edit", 
-    link: "/contributing/" 
+    link: "/contributing/贡献指南.md" 
   },
 ]);
