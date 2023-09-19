@@ -44,6 +44,8 @@ def build():
 
 def modify(id: str, name: str, tags: str, url: str):
     url = url_correct(url)
+    with open("pr-body.md", 'w+', encoding="UTF-8") as f:
+        f.write(f"群名称：{name}\n群号：{id}\n群标签：{tags}\n加群链接：{url}")
     print(f"正在添加：\n群名称：{name}\n群号：{id}\n群标签：{tags}\n加群链接：{url}")
     with open("groups.json", 'r', encoding="UTF-8") as f:
         groups = json.load(f)['groups']
