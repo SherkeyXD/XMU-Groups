@@ -33,11 +33,11 @@ jobs:
           python3 main.py modify -id "${{ github.event.inputs.id }}" -name "${{ github.event.inputs.name }}" -tags "${{ github.event.inputs.tags }}" -url "${{ github.event.inputs.url }}"
 
       - name: Commit changes
-        run: |
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "${{ github.actor }}"
-          git add .
-          git commit -m "group: 修改了群${{ github.event.inputs.id }}的内容"
+        uses: EndBug/add-and-commit@v9
+        with: 
+          add: "group.json"
+          message: "group: 修改了群${{ github.event.inputs.id }}的内容"
+          push: true
 
       - name: Create Pull Request
         run : |
