@@ -27,34 +27,27 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.PAT }}
-          repository: SherkeyXD/XMU-Groups
 
       - name: Modify group.json
         run: |
           python3 main.py modify -id "${{ github.event.inputs.id }}" -name "${{ github.event.inputs.name }}" -tags "${{ github.event.inputs.tags }}" -url "${{ github.event.inputs.url }}"
 
+      - name: Commit changes
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add .
+          git commit -m "group: 修改了群${{ github.event.inputs.id }}的内容"
+
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        run : |
+          gh pr create \
+          --repo SherkeyXD/XMU-Groups \
+          --base main \
+          --head "${{ github.ref }}" \
+          --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
+          --body "群名称：${{ github.event.inputs.name }}\n群号：${{ github.event.inputs.id }}\n群标签：${{ github.event.inputs.tags }}\n加群链接：${{ github.event.inputs.url }}" \
+          --label automated \
+          --assignee SherkeyXD \
         with:
-          token: ${{ secrets.PAT }}
-          commit-message: "group: 修改了群${{ github.event.inputs.id }}的内容"
-          branch: group/${{ github.event.inputs.id }}
-          title: "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})"
-          body: |
-            群名称：${{ github.event.inputs.name }}
-            群号：${{ github.event.inputs.id }}
-            群标签：${{ github.event.inputs.tags }}
-            加群链接：${{ github.event.inputs.url }}
-          labels: |
-            automated
-            group
-          assignees: SherkeyXD
-          delete-branch: true
-
-          
-
-
-          
-          
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
