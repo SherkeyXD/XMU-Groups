@@ -49,5 +49,5 @@ jobs:
           --body "群名称：${{ github.event.inputs.name }}\n群号：${{ github.event.inputs.id }}\n群标签：${{ github.event.inputs.tags }}\n加群链接：${{ github.event.inputs.url }}" \
           --label automated \
           --assignee SherkeyXD \
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
