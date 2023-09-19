@@ -5,40 +5,52 @@ order: 2
 # 网页端PR教程
 
 ::: info
-该教程基于项目 [MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 的文档修改而来
+该教程的 [手动编辑部分](#手动编辑) 基于项目 [MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 的文档修改而来
 :::
 
 ## Github Actions 自动编辑（推荐）
 
+::: info
+该方法需要你设置 Github 的 PAT 令牌，关于此你可以阅读 [这篇文章](https://docs.github.com/cn/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+::: 
+
 1. 首先进入 XMU-Groups 主仓库，fork 一份代码 <br>
     ![fork仓库](/assets/screenshot/pr-1.png)
 2. 点击 Create Fork <br>
-    ![fork仓库](/assets/screenshot/pr-2.png)
+    ![创建fork](/assets/screenshot/pr-2.png)
 3. 接下来来到了你的个人仓库，可以看到标题是 “你的名字/XMU-Groups”，下面一行小字 forked from SherkeyXD/XMU-Groups <br>
     ![你fork的repo](/assets/screenshot/pr-12.png)
-4. 找到下图中指出的 Settings 选项卡，点击进入 <br>
-    ![Settings选项卡](/assets/screenshot/pr-17.png)
-5. 如图所示，依次点击左边的 Actions 以及 General 选项 <br>
-    ![Actions设置](/assets/screenshot/pr-18.png)
-6. 将页面拉到最下方，确保图中 Workflow permissions 下面的第一项设置为 `Read and write permissions`，并勾选下方的 `Allow Github Actions to create and approve pull requests`，最后按 Save 按钮保存设置
-    ![Actions许可分配](/assets/screenshot/pr-18.png)
-7. 找到下图中指出的 Actions 选项卡，点击进入 <br>
+4. 点击链接前往 [创建PAT令牌](https://github.com/settings/tokens/new)，然后按照图中的提示选择 PAT 的名字，时限和权限 <br>
+    ![PAT令牌设置](/assets/screenshot/pr-17.png)
+5. 拉到页面最下方，点击 `Generate token` 按钮生成 PAT 令牌<br>
+    ![生成PAT令牌](/assets/screenshot/pr-18.png)
+6. 复制生成的 PAT 令牌
+    ![复制PAT令牌](/assets/screenshot/pr-19.png)
+7. 返回你的个人仓库，点击右上角的 Settings 按钮 <br>
+    ![Settings选项卡](/assets/screenshot/pr-20.png)
+8. 如图所示，依次点击左边的 `Secrets and variables` 以及 `Actions` 选项 <br>
+    ![Secrets设置](/assets/screenshot/pr-21.png)
+9. 点击右边的 `New repository secret` 按钮 <br>
+    ![Actions设置](/assets/screenshot/pr-22.png)
+10. 如图，在 `Name` 框内填入 `PAT`，然后将刚才复制的 PAT 令牌粘贴到下方的 `Value` 框内，最后点击 `Add secret` 按钮 <br>
+    ![填写PAT](/assets/screenshot/pr-23.png)
+11. 找到下图中指出的 Actions 选项卡，点击进入 <br>
    ![你fork的repo](/assets/screenshot/pr-12.png)
-8. 选择图中的绿色按钮来启用 Github Actions <br>
+12. 选择图中的绿色按钮来启用 Github Actions <br>
     ![启用GithubActions](/assets/screenshot/pr-13.png)
-9. 选择左边的 `Modify group messages`，然后点击右边的 `Run workflow` <br>
+13. 选择左边的 `Modify group messages`，然后点击右边的 `Run workflow` <br>
     ![选择workflow](/assets/screenshot/pr-14.png) <br>
     ![运行workflow](/assets/screenshot/pr-15.png)
-10. 在弹出的框内填入群号、群名称、加群链接和群聊标签（参考[群信息编写规范](/contributing/编写规范.html)），完成后点击下方的绿色 `Run workflow` 按钮 <br>
+14. 在弹出的框内填入群号、群名称、加群链接和群聊标签（参考[群信息编写规范](/contributing/编写规范.html)），完成后点击下方的绿色 `Run workflow` 按钮 <br>
     ![填写信息](/assets/screenshot/pr-16.png)
-11. 等待 workflow 运行完成，信息就修改好了，并且 PR 也会自动发起
-12. 如果有多个要修改/添加信息的群，重复上面的步骤即可
-13. 等待 PR 被合并就可以啦~
-14. 如果还要进行修改的话，回到 **你的个人仓库**，参照[手动编辑](#手动编辑)部分的步骤 4-8 即可！<br>
+15. 等待 workflow 运行完成，信息就修改好了，并且 PR 也会自动发起
+16. 如果有多个要修改/添加信息的群，重复上面的步骤即可
+17. 等待 PR 被合并就可以啦~
+18. 如果还要进行修改的话，回到 **你的个人仓库**，参照[手动编辑](#手动编辑)部分的步骤 4-8 即可！<br>
 ::: tip
 注意不需要重新 fork 仓库，也不需要操作重新发起 Pull Request，你当前的 Pull Request 仍处于待审核状态，后续的修改会直接进入到这个 Pull Request 
-::: tip
-15. 等审批通过，就全部完成啦！此后你的 GitHub 头像将会自动进入到贡献者列表名单中，非常感谢各位的无私奉献！<br>
+:::
+19.  等审批通过，就全部完成啦！此后你的 GitHub 头像将会自动进入到贡献者列表名单中，非常感谢各位的无私奉献！<br>
 
 ## 手动编辑
 
@@ -72,5 +84,5 @@ order: 2
 16. 如果还要进行修改的话，回到 **你的个人仓库**，重复 步骤 4-7 即可！<br>
 ::: tip
 注意不需要重新 fork 仓库，也不需要操作重新发起 Pull Request，你当前的 Pull Request 仍处于待审核状态，后续的修改会直接进入到这个 Pull Request 
-::: tip
-17. 等审批通过，就全部完成啦！此后你的 GitHub 头像将会自动进入到贡献者列表名单中，非常感谢各位的无私奉献！<br>
+:::
+17.  等审批通过，就全部完成啦！此后你的 GitHub 头像将会自动进入到贡献者列表名单中，非常感谢各位的无私奉献！<br>
