@@ -17,7 +17,6 @@ on:
         description: '加群链接'
         required: true
 
-
 permissions:
   contents: write
   pull-requests: write
@@ -29,7 +28,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+          repository: owner/repo
 
       - name: Modify group.json
         run: |
@@ -38,6 +38,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.PAT }}
           commit-message: "group: 修改了群${{ github.event.inputs.id }}的内容"
           branch: group/${{ github.event.inputs.id }}
           title: "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})"
