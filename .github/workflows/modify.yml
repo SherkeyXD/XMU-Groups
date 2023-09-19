@@ -43,6 +43,7 @@ jobs:
         run : |
           gh pr create \
           --repo SherkeyXD/XMU-Groups \
+          --head $(git branch --show-current) \
           --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
           --body-file "pr-body.md" \
           --label automated \
