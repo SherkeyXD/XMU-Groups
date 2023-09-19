@@ -27,3 +27,6 @@
 ## 贡献者
 
 [![Contributors](https://contributors-img.web.app/image?repo=SherkeyXD/XMU-Groups)](https://github.com/SherkeyXD/XMU-Groups/graphs/contributors)
+
+test
+
