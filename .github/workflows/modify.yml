@@ -17,9 +17,9 @@ on:
         description: '加群链接'
         required: true
       create-pr:
-        description: '是否自动创建pr'
+        description: '自动创建pr'
         default: true
-        required: false
+        required: true
         type: boolean
 
 permissions:
