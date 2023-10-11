@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Modify groups.json
         run: |
@@ -37,16 +37,19 @@ jobs:
         with: 
           add: "groups.json"
           message: "group: 修改了群${{ github.event.inputs.id }}的内容"
-          push: true
 
+      - name: Push to remote
+        uses: ad-m/github-push-action@master
+        with:
+          branch: group-${{ github.event.inputs.id }}
+        
       - name: Create Pull Request
         if: github.repository != 'SherkeyXD/XMU-Groups'
         run : |
           gh pr create \
           --repo SherkeyXD/XMU-Groups \
+          --base main \
           --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
           --body-file "pr-body.md" \
           --label automated \
           --assignee SherkeyXD \
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
