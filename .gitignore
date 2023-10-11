@@ -134,4 +134,4 @@ src/.vuepress/.cache
 
 # Repo specified
 src/groups/README.md
-
+info.md

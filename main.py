@@ -21,14 +21,17 @@ def correct():
     with open("groups.json", 'r', encoding="UTF-8") as f:
         groups = json.load(f)['groups']
     for i in groups:
-        i['url'] = url_correct(i['url'])
+        try:
+            i['url'] = url_correct(i['url'])
+        except IndexError:
+            print("加群链接不正确:", i['url'])
+            exit(1)
     groups.sort(key=lambda x: x['id'])
     with open("groups.json", 'w+', encoding="UTF-8") as f:
         json.dump({"groups": groups}, f, indent=4, ensure_ascii=False)
 
 
 def build():
-    correct()
     with open("groups.json", 'r', encoding="UTF-8") as f:
         groups = json.load(f)['groups']
     if not os.path.exists("./src/groups"):
@@ -44,7 +47,7 @@ def build():
 
 def modify(id: str, name: str, tags: str, url: str):
     url = url_correct(url)
-    with open("pr-body.md", 'w+', encoding="UTF-8") as f:
+    with open("info.md", 'w+', encoding="UTF-8") as f:
         f.write(f"群名称：{name}\n群号：{id}\n群标签：{tags}\n加群链接：{url}")
     print(f"正在添加：\n群名称：{name}\n群号：{id}\n群标签：{tags}\n加群链接：{url}")
     with open("groups.json", 'r', encoding="UTF-8") as f:
