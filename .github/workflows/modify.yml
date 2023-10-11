@@ -45,24 +45,12 @@ jobs:
           new_branch: group-${{ github.event.inputs.id }}
 
       - name: Create Pull Request
-        if: github.repository == 'SherkeyXD/XMU-Groups' && ${{ github.event.inputs.create-pr }}
-        run : |
-          gh pr create \
-          --base main \
-          --head $(git branch --show-current) \
-          --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
-          --body-file "info.md" \
-        env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create Pull Request from fork to Upstream
-        if: github.repository != 'SherkeyXD/XMU-Groups' && ${{ github.event.inputs.create-pr }}
+        if: ${{ github.event.inputs.create-pr }}
         run : |
           gh pr create \
           --repo SherkeyXD/XMU-Groups \
           --base main \
-          --head $(git branch --show-current) \
           --title "[群信息修改]${{ github.event.inputs.name }}(${{ github.event.inputs.id }})" \
           --body-file "info.md" \
         env:
-            GH_TOKEN: ${{ secrets.PAT }}  
+            GH_TOKEN: ${{ github.repository == 'SherkeyXD/XMU-Groups' && secrets.GITHUB_TOKEN || secrets.PAT }}
