@@ -11,12 +11,12 @@
     "update": "yarn dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.64",
-    "vercel": "31.0.1",
+    "@vuepress/client": "2.0.0-beta.67",
+    "vercel": "32.4.1",
     "vue": "^3.3.4",
-    "vuepress": "2.0.0-beta.64",
-    "vuepress-plugin-search-pro": "2.0.0-beta.230",
-    "vuepress-theme-hope": "2.0.0-beta.230"
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-plugin-search-pro": "2.0.0-beta.238",
+    "vuepress-theme-hope": "2.0.0-beta.238"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.4"
 }
