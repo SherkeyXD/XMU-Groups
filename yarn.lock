@@ -7417,7 +7417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.66.1, sass@npm:^1.69.1":
+"sass@npm:^1.66.1":
   version: 1.69.2
   resolution: "sass@npm:1.69.2"
   dependencies:
@@ -8909,33 +8909,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-sass-palette@npm:2.0.0-beta.238":
-  version: 2.0.0-beta.238
-  resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.238"
-  dependencies:
-    "@vuepress/shared": 2.0.0-beta.67
-    "@vuepress/utils": 2.0.0-beta.67
-    chokidar: ^3.5.3
-    sass: ^1.69.1
-    vuepress-shared: 2.0.0-beta.238
-  peerDependencies:
-    sass-loader: ^13.3.2
-    vuepress: 2.0.0-beta.67
-    vuepress-vite: 2.0.0-beta.67
-    vuepress-webpack: 2.0.0-beta.67
-  peerDependenciesMeta:
-    sass-loader:
-      optional: true
-    vuepress:
-      optional: true
-    vuepress-vite:
-      optional: true
-    vuepress-webpack:
-      optional: true
-  checksum: 5ed173ba0d5042c0e5b9e32407437dbf191fdce262f72cba0c1ba011ecced3a9603661fac44a6b4317e0fcc437c2dc0f5aca0c1a9d9cf7e5c166997266b2ede9
-  languageName: node
-  linkType: hard
-
 "vuepress-plugin-sass-palette@npm:2.0.0-beta.242":
   version: 2.0.0-beta.242
   resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.242"
@@ -8963,21 +8936,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-search-pro@npm:2.0.0-beta.238":
-  version: 2.0.0-beta.238
-  resolution: "vuepress-plugin-search-pro@npm:2.0.0-beta.238"
+"vuepress-plugin-sass-palette@npm:2.0.0-beta.243":
+  version: 2.0.0-beta.243
+  resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.243"
   dependencies:
-    "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
     "@vuepress/utils": 2.0.0-beta.67
-    "@vueuse/core": ^10.5.0
-    cheerio: 1.0.0-rc.12
     chokidar: ^3.5.3
-    slimsearch: ^1.0.0
-    vue: ^3.3.4
-    vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.238
-    vuepress-shared: 2.0.0-beta.238
+    sass: ^1.69.5
+    vuepress-shared: 2.0.0-beta.243
   peerDependencies:
     sass-loader: ^13.3.2
     vuepress: 2.0.0-beta.67
@@ -8992,7 +8959,40 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 3cba811b802e3797346e597c59802b89df09494cbaf5a6c41f8261f81255b2e9075cfa7ef928e3a6be6289f57fbee9b022967d03524c40ae0cc7cfa81628d4ba
+  checksum: 5a619dd41f5855864c3c9845302fc8836921c05dd62a8b1adfe97b5c560de8b2dec94b6070ee5e2b4896dbfed1e3330117f6975ecfdf5ad3667f4d33da7bd706
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-search-pro@npm:2.0.0-beta.243":
+  version: 2.0.0-beta.243
+  resolution: "vuepress-plugin-search-pro@npm:2.0.0-beta.243"
+  dependencies:
+    "@vuepress/client": 2.0.0-beta.67
+    "@vuepress/shared": 2.0.0-beta.67
+    "@vuepress/utils": 2.0.0-beta.67
+    "@vueuse/core": ^10.5.0
+    cheerio: 1.0.0-rc.12
+    chokidar: ^3.5.3
+    slimsearch: ^1.0.0
+    vue: ^3.3.7
+    vue-router: ^4.2.5
+    vuepress-plugin-sass-palette: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.243
+  peerDependencies:
+    sass-loader: ^13.3.2
+    vuepress: 2.0.0-beta.67
+    vuepress-vite: 2.0.0-beta.67
+    vuepress-webpack: 2.0.0-beta.67
+  peerDependenciesMeta:
+    sass-loader:
+      optional: true
+    vuepress:
+      optional: true
+    vuepress-vite:
+      optional: true
+    vuepress-webpack:
+      optional: true
+  checksum: 1df59386bf7badcffc0ebcaf22b0d276ac17b57c0f211f3a7fcc2e2b4a7f898d4b774b187e7304d3c316fc2a4025535aa9ca82fc17748212cab08ae04c0705f9
   languageName: node
   linkType: hard
 
@@ -9041,38 +9041,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-shared@npm:2.0.0-beta.238":
-  version: 2.0.0-beta.238
-  resolution: "vuepress-shared@npm:2.0.0-beta.238"
-  dependencies:
-    "@vuepress/client": 2.0.0-beta.67
-    "@vuepress/shared": 2.0.0-beta.67
-    "@vuepress/utils": 2.0.0-beta.67
-    "@vueuse/core": ^10.5.0
-    cheerio: 1.0.0-rc.12
-    dayjs: ^1.11.10
-    execa: ^8.0.1
-    fflate: ^0.8.1
-    gray-matter: ^4.0.3
-    semver: ^7.5.4
-    striptags: ^3.2.0
-    vue: ^3.3.4
-    vue-router: ^4.2.5
-  peerDependencies:
-    vuepress: 2.0.0-beta.67
-    vuepress-vite: 2.0.0-beta.67
-    vuepress-webpack: 2.0.0-beta.67
-  peerDependenciesMeta:
-    vuepress:
-      optional: true
-    vuepress-vite:
-      optional: true
-    vuepress-webpack:
-      optional: true
-  checksum: 2ff29ff8027cadae92ea24a9b21e50c5640024ff343c71f71bcdcde8590a2c1306d6af266e6cfd82e7cf8e55d257bb7b380848a737b29b4a6809aa1d4aec2685
-  languageName: node
-  linkType: hard
-
 "vuepress-shared@npm:2.0.0-beta.242":
   version: 2.0.0-beta.242
   resolution: "vuepress-shared@npm:2.0.0-beta.242"
@@ -9102,6 +9070,38 @@ __metadata:
     vuepress-webpack:
       optional: true
   checksum: 17d601ca9e097a1039a62fed06dac7e9880681e74884ff2f6bfff7d1b0c5d7321d75df34e0cbcf974331f6b284c4c632712bc30e8612e5cf68fccefdcefdb1b3
+  languageName: node
+  linkType: hard
+
+"vuepress-shared@npm:2.0.0-beta.243":
+  version: 2.0.0-beta.243
+  resolution: "vuepress-shared@npm:2.0.0-beta.243"
+  dependencies:
+    "@vuepress/client": 2.0.0-beta.67
+    "@vuepress/shared": 2.0.0-beta.67
+    "@vuepress/utils": 2.0.0-beta.67
+    "@vueuse/core": ^10.5.0
+    cheerio: 1.0.0-rc.12
+    dayjs: ^1.11.10
+    execa: ^8.0.1
+    fflate: ^0.8.1
+    gray-matter: ^4.0.3
+    semver: ^7.5.4
+    striptags: ^3.2.0
+    vue: ^3.3.7
+    vue-router: ^4.2.5
+  peerDependencies:
+    vuepress: 2.0.0-beta.67
+    vuepress-vite: 2.0.0-beta.67
+    vuepress-webpack: 2.0.0-beta.67
+  peerDependenciesMeta:
+    vuepress:
+      optional: true
+    vuepress-vite:
+      optional: true
+    vuepress-webpack:
+      optional: true
+  checksum: 54f4f47c81bf1e679434c6b1e21c8b5db6b7e4f09de9214069b922bfcc88cf9bfd168d6e5e0a290f3ecb9768e11e6863eb288044b7868846ef2601267c64203d
   languageName: node
   linkType: hard
 
@@ -9555,7 +9555,7 @@ __metadata:
     vercel: 32.5.0
     vue: ^3.3.6
     vuepress: 2.0.0-beta.67
-    vuepress-plugin-search-pro: 2.0.0-beta.238
+    vuepress-plugin-search-pro: 2.0.0-beta.243
     vuepress-theme-hope: 2.0.0-beta.242
   languageName: unknown
   linkType: soft
