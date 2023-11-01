@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "python main.py build && vuepress build src",
-    "clean": "npx rimraf src/groups/README.md && vuepress dev src --clean-cache",
+    "clean": "yarn dlx rimraf src/groups/README.md && vuepress dev src --clean-cache",
     "dev": "python main.py build && vuepress dev src",
     "update": "yarn dlx vp-update"
   },
