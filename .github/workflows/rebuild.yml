@@ -1,0 +1,35 @@
+
+name: Cleanup and rebuild yarn.lock
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  Cleanup-and-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          rm yarn.lock
+          yarn install
+        env:
+          CI: false
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with: 
+          add: "yarn.lock"
+          message: "build: update yarn.lock"
