@@ -46,7 +46,7 @@ jobs:
           yarn run build
 
       - name: Deploy to Vercel
-        if: github.repository == 'SherkeyXD/XMU-Groups'
+        if: github.repository == 'SherkeyXD/XMU-Groups' && github.event_name != 'pull_request'
         run: |
           vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
           vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
