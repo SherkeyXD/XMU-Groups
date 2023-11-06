@@ -1720,38 +1720,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdit/plugin-align@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-align@npm:0.5.2"
+"@mdit/plugin-align@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-align@npm:0.6.5"
   dependencies:
-    "@mdit/plugin-container": 0.5.2
+    "@mdit/plugin-container": 0.6.5
     "@types/markdown-it": ^13.0.5
   peerDependencies:
     markdown-it: ^13.0.2
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: c279a3518a2809a0d549f19d04f7b26a1453596890656daa5e893cf88b52aa36523cecb24d30b1249e4eeca576bdeeb4c9a6c43ea537ca5cef47a6f43f8cf47f
+  checksum: 72dc3756ab1e4440f1d2b6936a3ced25a44e91045279f9030fd4afdb0ae2838cadb56cd08b328117ca6a9d7f6f1c01bff4d18f9e16ace4f6faa02f2e0dbeab8a
   languageName: node
   linkType: hard
 
-"@mdit/plugin-attrs@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-attrs@npm:0.5.2"
-  dependencies:
-    "@types/markdown-it": ^13.0.5
-  peerDependencies:
-    markdown-it: ^13.0.2
-  peerDependenciesMeta:
-    markdown-it:
-      optional: true
-  checksum: 75537c1fd6f35ca4e5b22e3a7db2aca4985a0728ef64a73b60fe360fc05c0a45136038a96445da1b42f35688183b7c04ce23a7f6bc2e6f6821d360f274150bcc
-  languageName: node
-  linkType: hard
-
-"@mdit/plugin-container@npm:0.5.2, @mdit/plugin-container@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-container@npm:0.5.2"
+"@mdit/plugin-attrs@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-attrs@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1759,13 +1745,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 5ba591b2fa6d1af7e42b1816dd932980ae59be1bed87299be47547915bbf9b106814767189ec876dd18f6c14fcd9653430750f7dae8712653862fff6f911e344
+  checksum: a2fa85c171322ff175f8267ff2d21653c27672e0d43b4f27eeecd96264c878ffc029e7aac96cf5da515b94fdacf9b1a4dc7ea560b6b7faeb4df296840c30324d
   languageName: node
   linkType: hard
 
-"@mdit/plugin-figure@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-figure@npm:0.5.2"
+"@mdit/plugin-container@npm:0.6.5, @mdit/plugin-container@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-container@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1773,24 +1759,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: ad79444567062d20378558a70d14c74ea5315cebbb9751e9c1974b1c1d7ba95af775630a291d8be308325adbd5fd6f360a45ebc6c7404cdd2249859e33143f1a
+  checksum: cae322facd2335b6fa528f5c9c9a7dffb118e4c18f449df3998ea2035a32ef616ab549e2857e53f435b11b36009571abd242454b6aa84287435a9d42be50e65a
   languageName: node
   linkType: hard
 
-"@mdit/plugin-footnote@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-footnote@npm:0.5.2"
-  dependencies:
-    "@types/markdown-it": ^13.0.5
-  peerDependencies:
-    markdown-it: ^13.0.2
-  checksum: 3797cf69aab3e6a4bb5fd738e356f08f0924ffe3cde8a63797bbe9b146a49a5f3d947a43742f2ff2e34df351c53450bebe392352bac6d8cd7540be6402169bc2
-  languageName: node
-  linkType: hard
-
-"@mdit/plugin-img-lazyload@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-img-lazyload@npm:0.5.2"
+"@mdit/plugin-demo@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-demo@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1798,13 +1773,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 52fc4282f88ccb450dd1fc5b146ddd14548734924ccfd583f6d9d32ba1297662a8535f671a4a0fb1bf29d506801e9218c76fb429919c79f3bf08ec8392b89286
+  checksum: 24f998663a07c768de7b2ad4750ea6da06ed4db5ecfce2eb951ff1ebd851afbeba8f6bac048b12e7cc9e513576c545d441fafafbd20442b36708f1e641c31c7d
   languageName: node
   linkType: hard
 
-"@mdit/plugin-img-mark@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-img-mark@npm:0.5.2"
+"@mdit/plugin-figure@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-figure@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1812,13 +1787,24 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 31e8a54ab3aefab1013c318cf81eeedf0ace021ba014f1050d512b86378cd60beb0eb27bcc5abce1a5b0a9f21a197218729ddfef7d944e2fa90afa0df88c9540
+  checksum: 35e60f6d3d78f6c5a7ed7124532c4f78285fad85a899f6b107efd46f467159544668930fb4996632c0f2eb6eeede0f05c34a2f6f84a48ed7c1513d13bcb26f24
   languageName: node
   linkType: hard
 
-"@mdit/plugin-img-size@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-img-size@npm:0.5.2"
+"@mdit/plugin-footnote@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-footnote@npm:0.6.5"
+  dependencies:
+    "@types/markdown-it": ^13.0.5
+  peerDependencies:
+    markdown-it: ^13.0.2
+  checksum: 6ecbd7295dfa11528c03dbbce3b72a5b293022575fd1a721606eaa205bfbc4722199bd9e231d6779227f8460565f3b15644ee9acfaa63fc933550ffb31dda0f6
+  languageName: node
+  linkType: hard
+
+"@mdit/plugin-img-lazyload@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-img-lazyload@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1826,13 +1812,41 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 60d2c9cead6e438f2740e02a65d69767bda4a3e416b27d9a0ec6cb59a27346c78af70557d3c0fe7d75e746681af7e9627e72dc40b4f4bb1f092c903fd4e376b9
+  checksum: 57d699b8afb1ce2315bfec930e6e38510b0f1b720e914c414c5e9e273e3e0becbb8d809d315c1a245aece869e2a0a3039dada4d019e5881a9e4003d9bd714d32
   languageName: node
   linkType: hard
 
-"@mdit/plugin-include@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-include@npm:0.5.2"
+"@mdit/plugin-img-mark@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-img-mark@npm:0.6.5"
+  dependencies:
+    "@types/markdown-it": ^13.0.5
+  peerDependencies:
+    markdown-it: ^13.0.2
+  peerDependenciesMeta:
+    markdown-it:
+      optional: true
+  checksum: d8504656ae67eab917a78c01b7a262ff6c9428f929d19114d02cc78d1f95a6bedafb7d620df0b6d25013ff4e837e607dedd975bb8af847f4257af1ca62e14c52
+  languageName: node
+  linkType: hard
+
+"@mdit/plugin-img-size@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-img-size@npm:0.6.5"
+  dependencies:
+    "@types/markdown-it": ^13.0.5
+  peerDependencies:
+    markdown-it: ^13.0.2
+  peerDependenciesMeta:
+    markdown-it:
+      optional: true
+  checksum: 0bb72225f3483adfb1a78bb78fa554c68caaedaa3bfb83d70642e9049c23b4f4003cdfc3373395dab3c4ff00ca9319a6db99544b3b5a9c6b01f598601aaef493
+  languageName: node
+  linkType: hard
+
+"@mdit/plugin-include@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-include@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
     upath: ^2.0.1
@@ -1841,15 +1855,15 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: a5f09df08af83a153ad012247290a7337ad6f3a1f07e9ad7527dd3b851da5e09b956a0dcb07d368ea721e4459d8c2553e4e52f386164aa43d8f2d55c1facb686
+  checksum: 0483006883d0e06cde3cd3a5b26ee84d12c7c05c604d7a998c1e87d547bae58e804440d4369d8c2a5ed4fb4411ae4535595d653d327cdaf1db54c11ebca23a1e
   languageName: node
   linkType: hard
 
-"@mdit/plugin-katex@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-katex@npm:0.5.2"
+"@mdit/plugin-katex@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-katex@npm:0.6.5"
   dependencies:
-    "@mdit/plugin-tex": 0.5.2
+    "@mdit/plugin-tex": 0.6.5
     "@types/katex": ^0.16.5
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1860,13 +1874,13 @@ __metadata:
       optional: true
     markdown-it:
       optional: true
-  checksum: 8418d106624674790501381ffb2785427a236c52fcd44fa39dc1f9500502b1a26815cf344a2fba77383a37393f59b16bb3e89ce3ea02d29ac0589f18ce911c9a
+  checksum: 1042ba46703dee818fcc619e28c32a274bb7d9a0678c27734c0ca11800305e21361390f1d998f01220d85a4610a2d5b41fb11b0f55da7f9242e978698ca5dde3
   languageName: node
   linkType: hard
 
-"@mdit/plugin-mark@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-mark@npm:0.5.2"
+"@mdit/plugin-mark@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-mark@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1874,15 +1888,15 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 7dfcd6f073541580a3778970ea1ec3d24f5a5dbb8eac18459024ea0e0532920e629d081e8668dfb913c0dde661d9d2b0a5421acf39832079eae93593a5734f36
+  checksum: 00edd060df4c28980dd192cb76c37c9ef9f0179ea3d45c7dbc75aab5c3d56c9687728c07efb8d9c9068abae858cbefc60b34f5c0b3111be3357ce6d4f4153794
   languageName: node
   linkType: hard
 
-"@mdit/plugin-mathjax@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-mathjax@npm:0.5.2"
+"@mdit/plugin-mathjax@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-mathjax@npm:0.6.5"
   dependencies:
-    "@mdit/plugin-tex": 0.5.2
+    "@mdit/plugin-tex": 0.6.5
     "@types/markdown-it": ^13.0.5
     upath: ^2.0.1
   peerDependencies:
@@ -1893,13 +1907,13 @@ __metadata:
       optional: true
     mathjax-full:
       optional: true
-  checksum: 9dfc96787c1748246199fa8f8871f088f2fcb688b131f1160f38b66a313c25a59392978ac571ad911068512fca8dec0c3d59f630f5ac5a0080bdf82e9e95d12f
+  checksum: 973cb3d9264829dd36be5d34c5646522e0162cf9e1c0e3c610a59964e404f43d11a9383f16f0c733569752fb21f19a051087c11b72af6583639dd93062a717a2
   languageName: node
   linkType: hard
 
-"@mdit/plugin-stylize@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-stylize@npm:0.5.2"
+"@mdit/plugin-stylize@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-stylize@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1907,13 +1921,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: af083e8d3a2341bb43da6592bb61066394016f333b07b3549b76f6f3b34fd378081ec204312a2e4ffa68c3ce5117a3c67ab53aae04cde31472a76d48e29f4ea4
+  checksum: c2705f696f55a32bcf20c07e865efdd97ec0a9465a2e5f3532840e24b5564375ab0e64e0950dd351044064e6fb8a4c62d10cf18a20422a127b08445608980e97
   languageName: node
   linkType: hard
 
-"@mdit/plugin-sub@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-sub@npm:0.5.2"
+"@mdit/plugin-sub@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-sub@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1921,13 +1935,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: cfa3522c4433020dfe9d28c2cc3cb59fc60aa4bc72f4aa991c239b0264ccbe305e17ad8d8a7bcd72eab2a2efb11b0972feb39f995029f433cb2e26f0cd8a258c
+  checksum: cdcb8f2725fdd8ff3a048b8e2f25f0caed0334a6c4bfeab9c3e513c698a6d5fdc543e1402df302d0b066644fbd95b72aea594a777a785679970ba94247f6ff80
   languageName: node
   linkType: hard
 
-"@mdit/plugin-sup@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-sup@npm:0.5.2"
+"@mdit/plugin-sup@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-sup@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1935,13 +1949,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 070b0fd55f38c08998206297561eb40946e382c721d47f31f8bba7e3af5b025d4063e88acadad1b9ee758be1b09c5e95c95d1fa5f4240cc7416961a9af7b1315
+  checksum: 2b3bcea2f2f58ddc64dcdd3c47a2f8080590d29a6a1bfa44f95c3fdb70959e9aa21ba391e8c1e5116f3c86de82ddd1707842c5a330b4af05eef0690831c35452
   languageName: node
   linkType: hard
 
-"@mdit/plugin-tab@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-tab@npm:0.5.2"
+"@mdit/plugin-tab@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-tab@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1949,13 +1963,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 62f2eba120d32e9ffd20d83cc4a47f28971942dcc2edb10caaf35475dccd5502cbb0fb879125b9d1c797e567562eca0a076591d47969c50bdd7723c3c124a683
+  checksum: 140d68cb5824b62c312043afcbe8f8289aa68caf11946ea657e0c7a04ffce0f0c468a6f3a09433ca431cefeef16592e75b998e962b449efd238489c1602ac86d
   languageName: node
   linkType: hard
 
-"@mdit/plugin-tasklist@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-tasklist@npm:0.5.2"
+"@mdit/plugin-tasklist@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-tasklist@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1963,13 +1977,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 6458fe305037177aca6082470c71c6aa27f49a55eac6bb074a43142117c6b11f1752405db7f9f46a4e488060d0c3fe1d85cff3f0167ad5a92fcaa90ca5012717
+  checksum: ed933e85b72b351bb5d50a95906a20c3cbe067d6937041c574b2b81e299e80af6a06143abc4e11686afeff967aa4dfb29f0627bd8d99e6a801a130fcdb542d81
   languageName: node
   linkType: hard
 
-"@mdit/plugin-tex@npm:0.5.2, @mdit/plugin-tex@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-tex@npm:0.5.2"
+"@mdit/plugin-tex@npm:0.6.5, @mdit/plugin-tex@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-tex@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1977,13 +1991,13 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 5bbc2568a532d2a1ea22a0cdc660c81c5a1efd7a173017fef2c10e4b3f8a65fc645f37c1f572b71ac925b6fd642288e8955b82fd73368e24f7242f28de1cf82c
+  checksum: 5054dd405e4d64f282ab5051eba10e35f955dc4fbe5a5852d6008fda56e2bebefc0d219d1764d489f8b6f648ae190debc609f944d4f22f41b23619dd460c0d45
   languageName: node
   linkType: hard
 
-"@mdit/plugin-uml@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@mdit/plugin-uml@npm:0.5.2"
+"@mdit/plugin-uml@npm:^0.6.4":
+  version: 0.6.5
+  resolution: "@mdit/plugin-uml@npm:0.6.5"
   dependencies:
     "@types/markdown-it": ^13.0.5
   peerDependencies:
@@ -1991,7 +2005,7 @@ __metadata:
   peerDependenciesMeta:
     markdown-it:
       optional: true
-  checksum: 034cbef46647b90bf997e6caccf9537843c99f323bcccd7ca8344a935beefe2a670c3b1af8ddadf1cd7730ab90761178bf343c6096b0b9bff33a37be4d2af6ae
+  checksum: af529895050d656ece01afb6d00669942e69cf1f75bbbee33ca20a618cc6ce81be265adce5049c82aa7a9c0e982390678b64819f2aa3e21d4ebe864e6cb5d8ca
   languageName: node
   linkType: hard
 
@@ -8197,9 +8211,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-auto-catalog@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-auto-catalog@npm:2.0.0-beta.243"
+"vuepress-plugin-auto-catalog@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-auto-catalog@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/core": 2.0.0-beta.67
@@ -8207,9 +8221,9 @@ __metadata:
     "@vuepress/utils": 2.0.0-beta.67
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-components: 2.0.0-beta.243
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-components: 2.0.0-beta.245
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     sass-loader: ^13.3.2
     vuepress: 2.0.0-beta.67
@@ -8224,13 +8238,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: ab1304a8dc69798146c1f30e8366f0ff395d1f3bc491204152db5b7296b1c1fae42f584ebc913e7a687f0a32cd9f3070b49233a86b9f1b75de53a5ae478e2e37
+  checksum: 142eaf5867ffe4338c0901006556a91b04eea5640b234c96f0b7cfeced41022614f4540d14eea59e27897a64f9f96444fb3acbd21f22d22acba598b740f85b64
   languageName: node
   linkType: hard
 
-"vuepress-plugin-blog2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-blog2@npm:2.0.0-beta.243"
+"vuepress-plugin-blog2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-blog2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/core": 2.0.0-beta.67
@@ -8239,7 +8253,7 @@ __metadata:
     chokidar: ^3.5.3
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8251,13 +8265,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 39ab90e95fe2c66678ce4bf305b833c01f8184217978febb372c44c369fd529a3faacafbf25d1c24587a01068549c32e0de309beb84157b25522d4f7b92129cb
+  checksum: 6036aa1bba0edab453477945215389952eadcf5709f4d89a3c7b5c6bca9f249549be74542139cb7f81fafd0ebd5c5ff38f2d5ae28a7d647877d869cc69e6433a
   languageName: node
   linkType: hard
 
-"vuepress-plugin-comment2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-comment2@npm:2.0.0-beta.243"
+"vuepress-plugin-comment2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-comment2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
@@ -8265,8 +8279,8 @@ __metadata:
     giscus: ^1.3.0
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     "@waline/client": ^2.15.8
     artalk: ^2.6.4
@@ -8290,13 +8304,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 83d7abd83297d9b2883752f2796458b96978fa86740739c4a6af601713039bbf57ae06a0ddcfb4ba0ce1cc5c472ade27abfa767a57d8bdad1f310176af2edb57
+  checksum: b3811f3c473f4129506ddaaa434f36991ac08795660bc99bdd73ab00315b779c6263a72195e67b51a86a96fe93b659e2e840626fcba93a6981d2c6950ee40daa
   languageName: node
   linkType: hard
 
-"vuepress-plugin-components@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-components@npm:2.0.0-beta.243"
+"vuepress-plugin-components@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-components@npm:2.0.0-beta.245"
   dependencies:
     "@stackblitz/sdk": ^1.9.0
     "@vuepress/client": 2.0.0-beta.67
@@ -8309,9 +8323,9 @@ __metadata:
     qrcode: ^1.5.3
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-reading-time2: 2.0.0-beta.243
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-reading-time2: 2.0.0-beta.245
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     dashjs: ^4.7.2
     hls.js: ^1.4.12
@@ -8341,13 +8355,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 5820ce20a99667f18a81171f562d72acab27e31ebca0cee14e5f26dd77f4e2915b526d14539878b946d9ec30c3aa5f21a6a6ce0690eccab90453d16f48b0c9db
+  checksum: 48c8eb77ae83179b05e420d4a8fedafa72964b688328449c3288a0c8dc5ecdf0603f4e65ff844a2bd8dd456913911ed7729f20bed050d6506bbe1e6ec60e80f0
   languageName: node
   linkType: hard
 
-"vuepress-plugin-copy-code2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-copy-code2@npm:2.0.0-beta.243"
+"vuepress-plugin-copy-code2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-copy-code2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
@@ -8356,8 +8370,8 @@ __metadata:
     balloon-css: ^1.2.0
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     sass-loader: ^13.3.2
     vuepress: 2.0.0-beta.67
@@ -8372,13 +8386,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 39a3fe2b227764994bb461c1739db63eb9de7cd46d5d0134d088413d98ac572025928811c12f6cbd600c3a0fae5b817d1655a28a4852c9090a874fa315e8d357
+  checksum: 3739c2e02a870662473a476036971bd9bb45cb978a862eb7d7bfe06d6c14de1a9484ed4dada5f1bc53363f0f15f333c4db9b773e0f9ba2ea0893042bf21de09a
   languageName: node
   linkType: hard
 
-"vuepress-plugin-copyright2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-copyright2@npm:2.0.0-beta.243"
+"vuepress-plugin-copyright2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-copyright2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
@@ -8386,7 +8400,7 @@ __metadata:
     "@vueuse/core": ^10.5.0
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8398,18 +8412,18 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 589ba928de862f3cb6f3fe198204525aa8254cc8597010688bb3f857ce281da43294d11c707220e8ac35049d90b8f5479ca710f9c5a5964034a5b5f86c7793df
+  checksum: 68358f94a166aea1f949ceca55128d94c2ff5dd333f032ad93c7610e6cffdcaf053411c61174fa85324f0f18f98073721ec5fbbaf5df4378c07ade89f2f20b54
   languageName: node
   linkType: hard
 
-"vuepress-plugin-feed2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-feed2@npm:2.0.0-beta.243"
+"vuepress-plugin-feed2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-feed2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/shared": 2.0.0-beta.67
     "@vuepress/utils": 2.0.0-beta.67
     cheerio: 1.0.0-rc.12
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
     xml-js: ^1.6.11
   peerDependencies:
     vuepress: 2.0.0-beta.67
@@ -8422,34 +8436,35 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: c2c5b0a38a619f466ff547fe87a23bdbc7b831a031114cb666203893c7fdbc7c7bd86b48692f862e5e8c6d1bf110d8e29a12f7bc89d27c00de4fa3ebbd90aab3
+  checksum: 7a1d4caafd9a383c8ced45b8802de1b6a7ad8c2235ce887641c63f18228bf9e47b6ae43f5a529591021a24926352923abea141b7b68e26a959fd2eb6aae9d50f
   languageName: node
   linkType: hard
 
-"vuepress-plugin-md-enhance@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-md-enhance@npm:2.0.0-beta.243"
+"vuepress-plugin-md-enhance@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-md-enhance@npm:2.0.0-beta.245"
   dependencies:
     "@babel/core": ^7.23.2
-    "@mdit/plugin-align": ^0.5.2
-    "@mdit/plugin-attrs": ^0.5.2
-    "@mdit/plugin-container": ^0.5.2
-    "@mdit/plugin-figure": ^0.5.2
-    "@mdit/plugin-footnote": ^0.5.2
-    "@mdit/plugin-img-lazyload": ^0.5.2
-    "@mdit/plugin-img-mark": ^0.5.2
-    "@mdit/plugin-img-size": ^0.5.2
-    "@mdit/plugin-include": ^0.5.2
-    "@mdit/plugin-katex": ^0.5.2
-    "@mdit/plugin-mark": ^0.5.2
-    "@mdit/plugin-mathjax": ^0.5.2
-    "@mdit/plugin-stylize": ^0.5.2
-    "@mdit/plugin-sub": ^0.5.2
-    "@mdit/plugin-sup": ^0.5.2
-    "@mdit/plugin-tab": ^0.5.2
-    "@mdit/plugin-tasklist": ^0.5.2
-    "@mdit/plugin-tex": ^0.5.2
-    "@mdit/plugin-uml": ^0.5.2
+    "@mdit/plugin-align": ^0.6.4
+    "@mdit/plugin-attrs": ^0.6.4
+    "@mdit/plugin-container": ^0.6.4
+    "@mdit/plugin-demo": ^0.6.4
+    "@mdit/plugin-figure": ^0.6.4
+    "@mdit/plugin-footnote": ^0.6.4
+    "@mdit/plugin-img-lazyload": ^0.6.4
+    "@mdit/plugin-img-mark": ^0.6.4
+    "@mdit/plugin-img-size": ^0.6.4
+    "@mdit/plugin-include": ^0.6.4
+    "@mdit/plugin-katex": ^0.6.4
+    "@mdit/plugin-mark": ^0.6.4
+    "@mdit/plugin-mathjax": ^0.6.4
+    "@mdit/plugin-stylize": ^0.6.4
+    "@mdit/plugin-sub": ^0.6.4
+    "@mdit/plugin-sup": ^0.6.4
+    "@mdit/plugin-tab": ^0.6.4
+    "@mdit/plugin-tasklist": ^0.6.4
+    "@mdit/plugin-tex": ^0.6.4
+    "@mdit/plugin-uml": ^0.6.4
     "@types/js-yaml": ^4.0.8
     "@types/markdown-it": ^13.0.5
     "@vuepress/client": 2.0.0-beta.67
@@ -8461,8 +8476,8 @@ __metadata:
     markdown-it: ^13.0.2
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     "@types/reveal.js": ^4.4.5
     "@vue/repl": ^2.5.8
@@ -8504,13 +8519,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: e0110d2486722ae15992ae7d6c733dc4f1860bb057616b88260e6607bee77ca6b13cb8f2f10dc44ae1d1b6f62854ff7db447505d7e97177db319e48ba3ce4c0f
+  checksum: 62462e4147b4c7e0a44f039f3d3a5b007c37c30a56a889178f18376a9e4573e3f88ae85ff11ded5949eeb29fc88b578efc043a312cf7e564cbf7b3cf3100fdd8
   languageName: node
   linkType: hard
 
-"vuepress-plugin-photo-swipe@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-photo-swipe@npm:2.0.0-beta.243"
+"vuepress-plugin-photo-swipe@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-photo-swipe@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
@@ -8519,8 +8534,8 @@ __metadata:
     photoswipe: ^5.4.2
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     sass-loader: ^13.3.2
     vuepress: 2.0.0-beta.67
@@ -8535,13 +8550,13 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: b799b396017ae617374fb468eb801ea506458139d4b22765be460902d36c228cd4bd40a3cde5c0760ba2547ee75fddd365ee1336f0c38da2042ce1ab64d1c452
+  checksum: 78452f3916a057bcc2865cbdf2ad1bdce821677eaa6bae8108b0c6a84157c32746cebe49a8bc10e59507149ae4f58d430090699806174badf5958de68fc0d91e
   languageName: node
   linkType: hard
 
-"vuepress-plugin-pwa2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-pwa2@npm:2.0.0-beta.243"
+"vuepress-plugin-pwa2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-pwa2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
@@ -8551,8 +8566,8 @@ __metadata:
     register-service-worker: ^1.7.2
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
     workbox-build: ^7.0.0
   peerDependencies:
     sass-loader: ^13.3.2
@@ -8568,17 +8583,17 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: a5b13a258ad8e00430d1eec2c5201484399b41ce61ed1be978e4668e739243b63ea88f5673367f30bd1bf473dda5eba945e84c49613d19f0d32e17f2562c6f11
+  checksum: 948462840890a596d5aaeb3c6516b5c7f13c66fa8a739ee6b7b381485d15f9007bbba9423e194afb7c2fa33f980a5034b20bfaee0f05f33315f753e1b9134109
   languageName: node
   linkType: hard
 
-"vuepress-plugin-reading-time2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-reading-time2@npm:2.0.0-beta.243"
+"vuepress-plugin-reading-time2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-reading-time2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     vue: ^3.3.7
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8590,19 +8605,19 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 509155583fa7a975f94e0dfbfbd8c36e6c1af43f1c5e7d764594a70b54d284ce1cabdd198f680aa98456daf26255cd2c59783338deaabeb377b7d2da6acc1897
+  checksum: fb85dd55a110f0af15b264559b21339556d2481f0a4e5ca1bdd915c50db7592d07cb99561868b3199820fe9e4b3ca5c6d3510cd1b0dd11ac3dae0b72262e7e12
   languageName: node
   linkType: hard
 
-"vuepress-plugin-rtl@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-rtl@npm:2.0.0-beta.243"
+"vuepress-plugin-rtl@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-rtl@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/client": 2.0.0-beta.67
     "@vuepress/shared": 2.0.0-beta.67
     "@vuepress/utils": 2.0.0-beta.67
     vue: ^3.3.7
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8614,7 +8629,7 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 89ad6252c2f230939c55b44561e749a968165e9e97bcdb6e13d8eae813a7454b360c96f3c1a12b9390275e021b3a83f7edb3cf201374ac27e2faa1682b63e8ce
+  checksum: a40a92da5b9449a4959e92ebf5f8e232a221167d3715f837fbc31ec8ee419e833ac1e59b449d6d0f25917192897595886797437b3b5fbff75fc01e8db1e815d4
   languageName: node
   linkType: hard
 
@@ -8642,6 +8657,33 @@ __metadata:
     vuepress-webpack:
       optional: true
   checksum: 5a619dd41f5855864c3c9845302fc8836921c05dd62a8b1adfe97b5c560de8b2dec94b6070ee5e2b4896dbfed1e3330117f6975ecfdf5ad3667f4d33da7bd706
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-sass-palette@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.245"
+  dependencies:
+    "@vuepress/shared": 2.0.0-beta.67
+    "@vuepress/utils": 2.0.0-beta.67
+    chokidar: ^3.5.3
+    sass: ^1.69.5
+    vuepress-shared: 2.0.0-beta.245
+  peerDependencies:
+    sass-loader: ^13.3.2
+    vuepress: 2.0.0-beta.67
+    vuepress-vite: 2.0.0-beta.67
+    vuepress-webpack: 2.0.0-beta.67
+  peerDependenciesMeta:
+    sass-loader:
+      optional: true
+    vuepress:
+      optional: true
+    vuepress-vite:
+      optional: true
+    vuepress-webpack:
+      optional: true
+  checksum: 4f8212613ca2a36547296d93e948efd50a40e66c5f5c3e3ae58edc20e6519dd548701b43de983826b1861c35544e340b71252cef8b9c5b4d5aa25c5948116190
   languageName: node
   linkType: hard
 
@@ -8678,13 +8720,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-seo2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-seo2@npm:2.0.0-beta.243"
+"vuepress-plugin-seo2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-seo2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/shared": 2.0.0-beta.67
     "@vuepress/utils": 2.0.0-beta.67
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8696,18 +8738,18 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: cfef7dae50892809487072683ad44243ddb9bd94ab2c46296d483b80cb35dcc8210613981f03bdfbba1ab59278282889dcca4b03d9b58ecdb3aabec072357c75
+  checksum: d852aab36325e2b5cafd0f0b0f5ec79a7d1e200e218c6cfbb5b7071645663a8ecc2145f1ad4bddae3715e8c1537f75673a9d2d34e7b2536af62bbe9959a700ff
   languageName: node
   linkType: hard
 
-"vuepress-plugin-sitemap2@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-plugin-sitemap2@npm:2.0.0-beta.243"
+"vuepress-plugin-sitemap2@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-plugin-sitemap2@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/shared": 2.0.0-beta.67
     "@vuepress/utils": 2.0.0-beta.67
     sitemap: ^7.1.1
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     vuepress: 2.0.0-beta.67
     vuepress-vite: 2.0.0-beta.67
@@ -8719,7 +8761,7 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 182b9e061cef5d59a7126f8cffa92a694219d1bdceca98c2268e25969ef0d0e337cfa09d9e87bdb41cc1ad673705284c43e4a619b1723fdf33c8862ffffa51e3
+  checksum: 7ae2142a73736c3cb00c09cc1684bfd8785ac8ad8b021f1940b83f884a771bf45fbb28fac0807771380b353fd61674da9fdfe553850dfd0b0a6eab5b6a1af1a9
   languageName: node
   linkType: hard
 
@@ -8755,9 +8797,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-theme-hope@npm:2.0.0-beta.243":
-  version: 2.0.0-beta.243
-  resolution: "vuepress-theme-hope@npm:2.0.0-beta.243"
+"vuepress-shared@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-shared@npm:2.0.0-beta.245"
+  dependencies:
+    "@vuepress/client": 2.0.0-beta.67
+    "@vuepress/shared": 2.0.0-beta.67
+    "@vuepress/utils": 2.0.0-beta.67
+    "@vueuse/core": ^10.5.0
+    cheerio: 1.0.0-rc.12
+    dayjs: ^1.11.10
+    execa: ^8.0.1
+    fflate: ^0.8.1
+    gray-matter: ^4.0.3
+    semver: ^7.5.4
+    striptags: ^3.2.0
+    vue: ^3.3.7
+    vue-router: ^4.2.5
+  peerDependencies:
+    vuepress: 2.0.0-beta.67
+    vuepress-vite: 2.0.0-beta.67
+    vuepress-webpack: 2.0.0-beta.67
+  peerDependenciesMeta:
+    vuepress:
+      optional: true
+    vuepress-vite:
+      optional: true
+    vuepress-webpack:
+      optional: true
+  checksum: 06a5b8b1efdeae8b5c32a903c3782ec504531765a28d336b63e8c73918b2fb83fe82553be7930e9e5e35109c65e7d11c6316f7fa91a4c6a5881cf523089d30a1
+  languageName: node
+  linkType: hard
+
+"vuepress-theme-hope@npm:2.0.0-beta.245":
+  version: 2.0.0-beta.245
+  resolution: "vuepress-theme-hope@npm:2.0.0-beta.245"
   dependencies:
     "@vuepress/cli": 2.0.0-beta.67
     "@vuepress/client": 2.0.0-beta.67
@@ -8779,22 +8853,22 @@ __metadata:
     gray-matter: ^4.0.3
     vue: ^3.3.7
     vue-router: ^4.2.5
-    vuepress-plugin-auto-catalog: 2.0.0-beta.243
-    vuepress-plugin-blog2: 2.0.0-beta.243
-    vuepress-plugin-comment2: 2.0.0-beta.243
-    vuepress-plugin-components: 2.0.0-beta.243
-    vuepress-plugin-copy-code2: 2.0.0-beta.243
-    vuepress-plugin-copyright2: 2.0.0-beta.243
-    vuepress-plugin-feed2: 2.0.0-beta.243
-    vuepress-plugin-md-enhance: 2.0.0-beta.243
-    vuepress-plugin-photo-swipe: 2.0.0-beta.243
-    vuepress-plugin-pwa2: 2.0.0-beta.243
-    vuepress-plugin-reading-time2: 2.0.0-beta.243
-    vuepress-plugin-rtl: 2.0.0-beta.243
-    vuepress-plugin-sass-palette: 2.0.0-beta.243
-    vuepress-plugin-seo2: 2.0.0-beta.243
-    vuepress-plugin-sitemap2: 2.0.0-beta.243
-    vuepress-shared: 2.0.0-beta.243
+    vuepress-plugin-auto-catalog: 2.0.0-beta.245
+    vuepress-plugin-blog2: 2.0.0-beta.245
+    vuepress-plugin-comment2: 2.0.0-beta.245
+    vuepress-plugin-components: 2.0.0-beta.245
+    vuepress-plugin-copy-code2: 2.0.0-beta.245
+    vuepress-plugin-copyright2: 2.0.0-beta.245
+    vuepress-plugin-feed2: 2.0.0-beta.245
+    vuepress-plugin-md-enhance: 2.0.0-beta.245
+    vuepress-plugin-photo-swipe: 2.0.0-beta.245
+    vuepress-plugin-pwa2: 2.0.0-beta.245
+    vuepress-plugin-reading-time2: 2.0.0-beta.245
+    vuepress-plugin-rtl: 2.0.0-beta.245
+    vuepress-plugin-sass-palette: 2.0.0-beta.245
+    vuepress-plugin-seo2: 2.0.0-beta.245
+    vuepress-plugin-sitemap2: 2.0.0-beta.245
+    vuepress-shared: 2.0.0-beta.245
   peerDependencies:
     sass-loader: ^13.3.2
     vuepress: 2.0.0-beta.67
@@ -8809,7 +8883,7 @@ __metadata:
       optional: true
     vuepress-webpack:
       optional: true
-  checksum: 6e7c46715b9a96964fcfff3fe2795611bbd9ac5f4b52a0496923608ed3fe1d36d6d12787d31b2ea10be42dd35bc1894fe7e256b560c975e18134d4f634b617eb
+  checksum: a18d2c7685f4fcd643ee3e19fa6d18c1771867efc3f5a070d016f0f19db5970dae6a7028d6989910d7a803e34b0a3728402a20dbb25e8a7603015d70786f8280
   languageName: node
   linkType: hard
 
@@ -9218,7 +9292,7 @@ __metadata:
     vue: ^3.3.7
     vuepress: 2.0.0-beta.67
     vuepress-plugin-search-pro: 2.0.0-beta.243
-    vuepress-theme-hope: 2.0.0-beta.243
+    vuepress-theme-hope: 2.0.0-beta.245
   languageName: unknown
   linkType: soft
 
