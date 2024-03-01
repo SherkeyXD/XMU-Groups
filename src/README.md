@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.gif
 heroText: 厦门大学群收集
 tagline: 快来寻找志同道合的伙伴吧
 actions:
