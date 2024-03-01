@@ -28,7 +28,7 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Waline",
-      serverURL: "https://waline.sherkey.pro/",
+      serverURL: "https://waline.prts.tech/",
     },
 
     components: {
